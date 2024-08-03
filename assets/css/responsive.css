@@ -1,0 +1,496 @@
+@media screen and (max-width:1655px){
+    body.location-pg .sec7_content .item .item_body h3{font-size:22px!important;}    
+    h3{font-size:40px!important}
+    .side-bar{width:22%}
+    .banner .banner_item .banner_inner h1{font-size:50px;margin:0 0 1rem}
+    .banner .banner_item .banner_inner h1 span{font-size:60px!important}
+    .banner .banner_item .banner_inner p span{display:block}
+    .section6::before{width:520px;height:415px;top:-40px;left:0}
+    .contact-section3,.logo_cta,.section6{padding:40px 0}
+    .contact-section3 .cont_sec3 .cont_sec3_box a .box_img{margin:1rem auto}
+    .contact-section3 .cont_sec3 .cont_sec3_box h3{font-size:30px!important}
+    .contact-section3 .cont_sec3 .cont_sec3_box a h4{font-size:18px}
+    .contact-section3 .cont_sec3 .cont_sec3_box:hover .box_img img{transform:scale(1)}
+    .footer .ft_left .ft_header h4{font-size:35px}
+    .footer .ft_left::before{top:-50px;width:121px;height:130px}
+    .footer .ft_left{padding:50px 50px 10px 35px}
+    .ft_logo{padding:1rem 0 3rem}
+    .footer .ft_right{padding-left:0}
+    .footer::after{width:370px;height:575px}
+    .footer .ft_right .ft_menu .ft_menu_lft ul li a,.footer .ft_right .ft_menu .ft_menu_rgt ul li a{font-size:15px}
+    .footer .ft_right .ft_menu .ft_menu_rgt ul li a{margin-left:15px}
+    #web-application .banner_item .box_1::after{width:40%;bottom:140px;}
+    #video-animation .banner_item .box_1::after{width:31%;right:140px;bottom:170px;}
+    #domain-and-hosting .banner_item .box_1::after{width:31%;right:130px;bottom:170px;}
+    #seo-page .banner_item .box_1::after{width:33%;right:100px;bottom:130px;}
+    #brand-page .banner_item .box_1::after{width:35%;right:100px;}
+    .banner .banner_item .box_5::after{width:33%;height:71%;bottom:70px;right:210px;}
+    .banner .banner_item .box_3::after,.banner .banner_item .box_4::after{width:35%;}
+    #grant-writing .banner_item .box_1::after{width:46%;height:78%;right:0px;bottom:0px;}
+}
+@media screen and (max-width:1550px){
+    .box-sec.box-2{background-size:cover }
+    .location-banner .img-wrap{bottom:-100px;}
+    .location-banner img.banner-mokup{width:700px;}
+    .location-banner{padding:100px 0 80px;}    
+    .logo-section4 .logo_sec4_content .logo_slide ul li .item_body .item_heading h3{font-size:22px!important;}
+    p{font-size:13px!important}
+    h3{font-size:35px!important}
+    .fixed-header{padding:20px 0}
+    .banner .banner_item .banner_inner h1{font-size:45px;margin:0 0 1rem}
+    .side-bar .side-bar-logo img{width:50%}
+    .banner .banner_item .box_1::after{width:35%;height:75%;right:120px;bottom:30px}
+    .banner .banner_item .box_2::after{width:38%;height:70%;bottom:30px}
+    .banner .banner_item .box_4::after{width:33%;height:64%;right:170px;bottom:50px}
+    .banner .banner_item .box_5::after{width:38%;height:70%;right:120px}
+    .banner .banner_item .box_3::after{width:35%;height:70%;right:130px}
+    #seo-page .banner_item .box_1::after{width:43%;height:68%;right:10px;bottom:50px}
+    #ecom-page .banner_item .box_1::after{width:40%;height:84%;bottom:-32px;right:100px}
+    .banner .banner_item .box_2::after{right:120px}
+    #contact-page .banner_item .banner_inner h1 span::before{top:-40px}
+    #contact-page .banner_item .banner_inner p span,#port-page .banner_item .banner_inner p span{display:block}
+    #port-page .banner_item .banner_inner h1 span::before{top:-30px}
+    #domain-and-hosting .banner_item .box_1::after{width:39%;height:47%;right:120px;bottom:110px}
+    #web-maintenance .banner_item .box_1::after{width:30%;height:65%;right:130px;bottom:60px}
+    #video-animation .banner_item .box_1::after{width:40%;height:48%;right:80px;bottom:120px}
+    #mobile-application .banner_item .box_1::after{height:60%}
+    #web-application .banner_item .box_1::after{width:41%;height:55%;right:25px;bottom:80px}
+    #digital-marketing .banner_item .box_1::after{height:66%;right:120px;bottom:60px}
+    #ecommerce-solution .banner_item .box_1::after{width:38%;height:48%;right:110px;bottom:130px}
+    .banner .banner_item .banner_inner h1 span{font-size:50px!important}
+    .banner .banner_item .banner_inner h4{font-size:16px;margin-bottom:25px}
+    .btn1,.btn2{padding:14px 25px;font-size:12px}
+    .side-bar-button{left:25px}
+    #website-page .banner_item .box_1::after{width:30%;height:72%;right:90px;bottom:50px}
+    #logo-design-page .banner_item .box_1::after{width:40%;height:75%}
+    #port-section3 .logo-sec3_head .logo-sec3_left{width:80%;height:320px;margin:0 auto}
+    #brand-page .banner_item .box_1::after{width:42%;height:75%;right:80px}
+    .contact-section3,.logo-section3,.logo_cta,.section9{padding:40px 0}
+    .logo-section3 .logo-sec3_right h2{font-size:35px}
+    .section6::before{width:470px;height:375px;left:180px;top:-25px}
+    div#sec_6{padding:70px 0}
+    .logo-section4 .logo_sec4_content,.section9 .sec9_content{margin-top:2rem}
+    .sec7_content,.sec7_content .combo_btn{margin-top:1rem}
+    .sec7_content{padding:0 30px}
+    .section7{padding:80px 0 40px}
+    .logo-section4 .logo_sec4_content .logo_slide ul .logo_slide_item-1.active .item_body,.logo-section4 .logo_sec4_content .logo_slide ul .logo_slide_item-2.active .item_body,.logo-section4 .logo_sec4_content .logo_slide ul .logo_slide_item-3.active .item_body,.logo-section4 .logo_sec4_content .logo_slide ul .logo_slide_item-4.active .item_body,.logo-section4 .logo_sec4_content .logo_slide ul .logo_slide_item-5.active .item_body,.logo-section4 .logo_sec4_content .logo_slide ul .logo_slide_item-6.active .item_body{width:750px}
+    .logo-section4 .logo_sec4_content .logo_slide ul li .item_body .item_text{width:720px;padding:20px 70px 20px 30px}
+    .logo-section4 .logo_sec4_content .logo_slide ul li .combo_btn{margin-top:20px}
+    .logo-section4 .logo_sec4_content .logo_slide ul li .item_body .item_text p{margin-bottom:5px;padding-right:30px}
+    .logo-section4 .logo_sec4_content .logo_slide ul img{width:80%;margin:0}
+    .logo-section4 .logo_sec4_content .logo_slide ul li .item_body .item_text h3{padding-bottom:5px}
+    .logo-section4 .logo_sec4_content .logo_slide ul li .item_body{padding-left:70px}
+    .logo-section4 .logo_sec4_content .logo_slide ul li .item_body .item_heading h4{font-size:18px}
+    .logo-section4{padding:60px 0}
+    .footer::before{width:940px;height:310px;left:50%}
+    .footer .ft_right .ft_menu .ft_menu_lft ul li a,.footer .ft_right .ft_menu .ft_menu_rgt ul li a,.ft__right ul li a,.ft_logo .ft__right p{font-size:12px}
+    .footer::after{width:340px;height:525px}
+    .footer .ft_right h5{font-size:22px}
+    .footer{padding:40px 0 0}
+    .footer .ft_left .ft_form form input{margin-bottom:25px;font-size:13px}
+    .footer .ft_left .ft_header h4{font-size:23px}
+    .ft__right ul li{margin-left:5px}
+    .footer .ft_left .ft_header p{margin:20px 0 10px}
+    .section5{padding:80px 0 70px}
+    .sec3_content .sec3_box .sec3_item h4{font-size:25px}
+    .sec3_content .sec3_box .sec3_item{padding:2rem}
+    .section5::after{font-size:310px;top:120px;letter-spacing:-16px}
+    .terms-page{height:70vh}
+    .terms-page .terms_item h1{font-size:50px}
+    .footer .ft_right .ft_menu .ft_menu_lft ul{padding-bottom:10px}
+    .section4::after{font-size:440px;top:-150px;letter-spacing:-36px;right:30px}
+    .side-bar{width:24%}
+    #brand_sec6{padding:55px 0 50px}
+    .logo-section3 .logo-sec3_head .logo-sec3_left img{width:100%;margin:0 auto;display:block}
+    #mobile-application3 .logo-sec3_left:hover img{transform:unset;filter:unset;width:90%}
+    .side-bar .side-bar-menu ul li ul li a{font-size:13px}
+}
+@media screen and (max-width:1440px){
+    .location-banner img.banner-mokup{width:600px;}
+    .sec7_content .item .item_body h3{font-size:22px!important;}    
+
+    .ref-sec-6{padding: 0 !important}
+    .banner .ref-banner .banner_inner h1,.banner .ref-banner .banner_inner h1 span{font-size: 45px}
+
+
+
+
+}
+@media screen and (max-width:1250px){
+    .location-banner img.banner-mokup{width:500px;}
+    .side-bar .side-bar-menu ul li ul li a{font-size:13px}
+    .banner .banner_item .banner_inner h1,.banner .banner_item .banner_inner h1 span{font-size:35px}
+    .banner .banner_item .banner_inner h1 span{font-size:35px!important;display:block!important;-webkit-transform:unset!important}
+    .banner .banner_item .banner_inner{height:fit-content;padding-top:80px}
+    .banner .banner_item{height:fit-content;padding:100px 0 60px}
+    .footer .ft_right h5{font-size:22px}
+    .footer::after{width:270px;height:415px}
+    .ft_logo .ft__right p{margin-bottom:0;width:90%}
+    .head_menu .head_btn1{font-size:14px;padding:14px 10px 14px 58px}
+    .head_menu .head_btn2{padding:14px 17px;font-size:14px}
+    .side-bar-button{left:10px}
+    .contact-section3 .cont_sec3 .cont_sec3_box h3{font-size:22px!important}
+    .contact-section3 .cont_sec3 .cont_sec3_box a h4{font-size:14px}
+    .contact-section3 .cont_sec3 .cont_sec3_box:hover .box_img img{transform:scale(.8)}
+    .contact-section3 .cont_sec3 .cont_sec3_box a .box_img{width:120px;height:120px}
+    .contact-section3 .cont_sec3 .cont_sec3_box a .box_img img{width:105px}
+    .section9 .sec9_content .sec9_testimonials .item .item_text h4{font-size:18px;margin:10px 0}
+    .section9 .sec9_content .sec9_testimonials .item .item_text img{width:30px}
+    .section9 .sec9_content .sec9_testimonials .item .item_text{padding:0 5px}
+    .sec8_content{margin-top:2rem}
+    .sec8_pricing .sec8_box_left .box_right{padding:15px}
+    .sec8_pricing .sec8_box_left .box_right h4{font-size:23px}
+    .sec8_box_right .nav-pills .nav-link{padding:20px;font-size:20px}
+    .sec8_pricing .sec8_box_left .box_left h4{font-size:19px}
+    .sec8_pricing .sec8_box_left .box_right ul li{margin-bottom:5px;font-size:14px}
+    .sec8_pricing .sec8_box_left .box_right ul li::before{font-size:14px}
+    .sec8_pricing .sec8_box_left .box_right ul{margin-top:1rem}
+    .sec8_pricing .sec8_box_left .box_left::before{width:240px;height:150px;bottom:10px}
+    .sec8_pricing .sec8_box_left .box_left{padding:2rem 1rem 10rem}
+    .sec8_pricing .sec8_box_left .box_left p{margin:1rem 0}
+    #pills-logo-2 .sec8_pricing .sec8_box_left .box_left::before{width:220px;height:200px;bottom:-40px;left:-10px}
+    #pills-seo-2 .sec8_pricing .sec8_box_left .box_left::before{width:240px;height:180px;bottom:-10px}
+    #pills-branding-2 .sec8_pricing .sec8_box_left .box_left::before{width:240px;height:220px;bottom:-40px}
+    #domain-and-hosting .banner_item .box_1::after{width:40%;height:66%;right:80px;bottom:20px}
+    #web-maintenance .banner_item .box_1::after{width:29%;height:88%;right:170px;bottom:10px}
+    #video-animation .banner_item .box_1::after{width:39%;height:69%;right:80px;bottom:30px}
+    #mobile-application .banner_item .box_1::after{width:35%;height:75%;right:105px;bottom:30px}
+    #ecommerce-solution .banner_item .banner_inner h1 span,#web-application .banner_item .banner_inner h1 span,#website-dev .banner_item .banner_inner h1 span{display:inline-block}
+    #web-application .banner_item .box_1::after{width:35%;height:76%;right:110px;bottom:10px}
+    #digital-marketing .banner_item .box_1::after{width:25%;height:85%;right:180px;bottom:0}
+    #ecommerce-solution .banner_item .box_1::after{width:33%;height:60%;right:100px;bottom:60px}
+    #grant-writing .banner_item .box_1::after{width:44%;height:90%;right:0px;bottom:0px;}
+    #pills-grant-2 .sec8_box_left .box_left::before{width:290px;height:170px;left:-20px;bottom:20px;}
+
+    .banner .ref-banner .ref-banner-img img {transform: translateX(-190px);}
+
+
+}
+@media screen and (max-width:1200px){
+    .box-sec .main-heading {font-size: 35px; }
+    .section6 .sec6_right h2,.logo_cta .logo-cta-right h2{font-size:40px;}
+    .location-banner h1{font-size:50px;}
+    .location-banner h1 span{font-size:50px;}
+    .location-banner .content h2{font-size:26px;}
+    .location-banner img.banner-mokup{width:100%;}    
+    .main-heading{font-size:40px;}    
+    h3{font-size:30px!important}
+    .section4 .sec4_right::before{width:290px;height:448px;left:-12px}
+    .section4::after{font-size:320px;top:-80px;right:25px;letter-spacing:-30px}
+    #contact_section6{background-size:cover}
+    #contact_section6 .sec6_right .contact_form form input,#contact_section6 .sec6_right .contact_form form textarea{margin-bottom:15px;font-size:13px;padding-left:10px}
+    #contact_section6 .sec6_left p{margin:1rem 0}
+    .terms-page{height:fit-content;padding:160px 0 110px}
+    .sec5_content .sec5_portfolio .box .item img{width:100%;display:block;column-count:2;margin:0 25px}
+    .port-page-portfolio .box{width:90%;margin:0 auto;display:block;column-count:2}
+    .sec5_content .sec5_portfolio .box .item{margin:0 0 15px}
+    .port-page-portfolio .box .item{width:100%}
+    .sec5_content #pills-tab .nav-item button,.sec5_content #pills-tab .nav-item button.nav-link.active{font-size:14px;padding:12px 35px}
+    .sec5_content{margin-top:2rem}
+    .section5::after{font-size:260px;top:120px;letter-spacing:-23px}
+    .logo-section4::before{font-size:330px;top:-70px;letter-spacing:-10px;left:150px}
+    #ecom-page .banner_item .box_1::after{width:41%;height:91%;bottom:-30px;right:20px}
+    .section6::before{left:0}
+    .logo-section4 .logo_sec4_content .logo_slide ul li .item_body .item_text h3{font-size:22px!important}
+    .logo-section4 .logo_sec4_content .logo_slide ul li .item_body .item_text{width:520px}
+    .logo-section4 .logo_sec4_content .logo_slide ul .logo_slide_item-1.active .item_body,.logo-section4 .logo_sec4_content .logo_slide ul .logo_slide_item-2.active .item_body,.logo-section4 .logo_sec4_content .logo_slide ul .logo_slide_item-3.active .item_body,.logo-section4 .logo_sec4_content .logo_slide ul .logo_slide_item-4.active .item_body,.logo-section4 .logo_sec4_content .logo_slide ul .logo_slide_item-5.active .item_body,.logo-section4 .logo_sec4_content .logo_slide ul .logo_slide_item-6.active .item_body{width:540px}
+    .footer .col-sm-12.col-md-8.col-lg-5{width:100%;max-width:100%;flex:50%}
+    .footer::after{display:none}
+    .footer .ft_left .ft_header h4{font-size:22px}
+    .footer .ft_left{padding:30px 49px 10px 25px}
+    .section5{padding:40px 0 70px}
+    .side-bar{width:30%}
+    #logo-design-page .banner_item .box_1::after{width:30%;height:65%;right:30px;bottom:40px}
+    .sec8_content #pills-tab .nav-item button{padding:15px 35px}
+    #seo-page .banner_item .box_1::after{width:36%;right:0}
+    .banner .banner_item .box_1::after{width:35%;height:80%;right:60px;bottom:30px}
+    .banner .banner_item .box_3::after{width:27%;height:70%;right:120px}
+    .banner .banner_item .box_2::after{right:70px}
+    .banner .banner_item .box_5::after{width:28%;height:60%;right:120px}
+    #website-page .banner_item .box_1::after{right:70px;bottom:60px}
+    #brand-page .banner_item .box_1::after{width:32%;right:30px;bottom:0}
+    .banner .banner_item .box_4::after{right:100px}
+    #website-dev .banner_item .box_1::after{width:35%;height:75%;right:60px;bottom:33px}
+    .ft_menu_rgt.footer_menu ul{column-count:2}
+    .footer .ft_left .ft_form form input{font-size:12px}
+}
+@media screen and (max-width:1199px){
+    #grant-writing .banner_item .box_1::after{width:42%;height:80%;right:0px;bottom:0px;}
+    #pills-grant-2 .sec8_box_left .box_left::before{width:220px;height:140px;left:-5px;bottom:0px;}
+
+    .banner .ref-banner .bnr_left .bnr_heading h1,.banner .ref-banner .bnr_left .bnr_heading span {font-size: 40px}
+    .ref-sec-4 .sec4_header h2{margin: 10px 140px}
+    .ref-sec-4 .sec4_header p{margin: 10px 210px}
+    .ref-sec-7{background-size: cover;}
+    .ref-sec-10 .content:before{font-size: 77px;top: -64px;left: -15px;}
+
+    .ref-sec-6 .content{padding: 60px 0}
+    .banner .ref-banner .ref-banner-img img {transform: translateX(-180px);max-width: 650px;}    
+    .ref-sec-6 .image img{max-width: 550px;transform: translateX(-80px);}
+}
+@media screen and (max-width:991px){
+.box-sec .img-wrap{width:80%;margin:auto;margin-top:20px;}
+.box-sec.box-2 .row{flex-direction:column-reverse;}
+
+    .main-heading br{display:none;}
+    .logo-section4 .logo_sec4_head h2{font-size:40px;}
+    .section5 h2{font-size:40px!important;}
+    .location-banner .img-wrap{position:unset;margin-top:30px;text-align:center;}
+    .location-banner .img-wrap img{width:80%;margin-bottom:-20px;}
+    .location-banner .content{margin-top:20px;}
+    .location-banner{padding-bottom:0px;background-position:-400px;}    
+    .location-pg .section6 .sec6_right h2{font-size:30px;}
+    .location-pg div#sec_6{padding-top:40px;}
+    .location-pg .section6 .sec6_right .combo_btn{margin-top:1rem;}
+    .location-pg .section7 .sec7_head h2{font-size:40px;}
+    .location-pg .section7 .sec7_head p{padding:10px;}
+    .location-pg .sec7_content .item .item_body h3{font-size:18px!important;}
+    .location-pg .section9 .sec9_content .sec9_testimonials p{height:170px;overflow-y:auto;margin:10px 0;}
+    .location-pg .section9 .sec9_content .sec9_testimonials .item .item_text h4{font-size:14px!important}
+    p{font-size:12px!important}
+    h3{font-size:25px!important}
+    .section4 .sec4_right::before{width:160px;height:304px;left:-2px;top:-10px}
+    .section9 .sec9_content .sec9_testimonials .item .item_text h4{font-size:16px;margin:5px 0}
+    .section9 .sec9_content .sec9_testimonials p{font-size:12px!important;margin:0}
+    .section9 .sec9_content .sec9_testimonials .item .item_text .item_footer{margin-top:2px}
+    .sec8_content #pills-tab .nav-item button{padding:13px 23px}
+    .sec8_content #pills-tab .nav-item button.nav-link.active{font-size:14px;padding:14px 40px}
+    .sec8_pricing .sec8_box_left .box_left{padding:10px 10px 100px}
+    .sec7_content .item .item_body h4{font-size:18px;margin-bottom:10px}
+    .sec7_content{padding:0 10px}
+    .sec7_content .item{padding:10px}
+    .section6 .sec6_right .combo_btn{margin-top:2rem}
+    .section6::before{width:320px;height:255px;top:-5px}
+    .btn1,.btn2{padding:12px 17px;margin-right:10px}
+    .sec8_pricing .sec8_box_left .box_left h4,.sec8_pricing .sec8_box_left .box_right h4{font-size:16px}
+    .sec8_pricing .sec8_box_left .box_left::before{width:190px;height:120px;bottom:-10px}
+    .sec8_pricing .sec8_box_left .box_right ul li{font-size:12px;align-items:baseline}
+    .sec8_pricing .sec8_box_left .box_right ul li::before{font-size:12px}
+    #pills-logo-2 .sec8_pricing .sec8_box_left .box_left::before{width:160px;height:150px;bottom:-30px}
+    #pills-seo-2 .sec8_pricing .sec8_box_left .box_left::before{width:180px;height:150px;bottom:-30px}
+    #pills-branding-2 .sec8_pricing .sec8_box_left .box_left::before{width:190px;height:160px;bottom:-30px}
+    .sec8_box_right .nav-pills .nav-link{padding:14px 10px;font-size:18px}
+    .sec8_pricing .sec8_box_left .box_right ul li i{font-size:14px}
+    .sec8_pricing .sec8_box_left .box_right ul{height:200px}
+    .section3 .sec3_head .sec3_left h2{font-size:28px}
+    .terms-page .terms_item h1{font-size:30px!important}
+    .section5::after{font-size:210px;top:120px;letter-spacing:-23px}
+    .logo-section3 .logo-sec3_right h2{font-size:22px}
+    .footer .col-sm-12.col-md-4{width:100%;max-width:100%;flex:33%}
+    .footer .ft_left .ft_form form input{margin-bottom:15px;font-size:12px}
+    .footer .ft_left .ft_header h4{font-size:18px}
+    .footer .ft_left::before{top:-50px;width:102px;height:110px}
+    .footer .ft_left .ft_header{margin-top:3rem}
+    .footer .ft_left{padding:30px 21px 10px 15px}
+    .footer .ft_right h5{font-size:20px;margin-bottom:5px}
+    .footer .ft_right .ft_menu .ft_menu_lft ul{padding:0;border:none}
+    .logo-section4 .logo_sec4_content .logo_slide ul li .item_body .item_heading h4,.logo-section4 .logo_sec4_content .logo_slide ul li .item_body .item_text h3{font-size:16px!important}
+    .logo-section4 .logo_sec4_content .logo_slide ul li .item_body .item_text{width:324px;padding:30px 60px 30px 20px}
+    .logo-section4 .logo_sec4_content .logo_slide ul .logo_slide_item-1.active .item_body,.logo-section4 .logo_sec4_content .logo_slide ul .logo_slide_item-2.active .item_body,.logo-section4 .logo_sec4_content .logo_slide ul .logo_slide_item-3.active .item_body,.logo-section4 .logo_sec4_content .logo_slide ul .logo_slide_item-4.active .item_body,.logo-section4 .logo_sec4_content .logo_slide ul .logo_slide_item-5.active .item_body,.logo-section4 .logo_sec4_content .logo_slide ul .logo_slide_item-6.active .item_body{width:320px}
+    .logo-section4 .logo_sec4_content .logo_slide ul img{width:80%}
+    .header{padding:30px 0 30px 60px}
+    .logo-section4::before{top:-10px;left:50px}
+    #brand-page .banner_item .box_1::after{right:20px}
+    #website-page .banner_item .box_1::after{right:50px}
+    #pills-ecommerce-2 .sec8_pricing .sec8_box_left .box_left::before{width:190px;height:160px;bottom:-55px;left:-20px}
+    #domain-and-hosting .banner_item .box_1::after{width:38%;height:43%;right:15px;bottom:80px}
+    #web-maintenance .banner_item .box_1::after{width:32%;height:63%;right:30px;bottom:30px}
+    #video-animation .banner_item .box_1::after{width:37%;height:55%;right:15px;bottom:30px}
+    #mobile-application .banner_item .box_1::after{width:35%;height:56%;right:35px;bottom:50px}
+    #web-application .banner_item .box_1::after{width:41%;height:50%;right:15px;bottom:60px}
+    #digital-marketing .banner_item .box_1::after{width:32%;height:65%;right:50px;bottom:30px}
+    #website-dev .banner_item .box_1::after{width:32%;height:63%;right:20px;bottom:40px}
+    #ecommerce-solution .banner_item .box_1::after{right:25px;bottom:0}
+    .ft_menu_rgt.footer_menu ul{column-count:unset;overflow-y:scroll;height:150px;padding-left:10px}
+    #grant-writing .banner_item .box_1::after{width:42%;height:80%;right:0px;bottom:0px;}
+    #sec7_grant .row .col-md-4{max-width:50%;flex:50%;margin-bottom:20px;}
+    #pills-grant-2 .sec8_box_left .box_left::before{width:190px;height:110px;}
+
+    .ref-sec-4{background-size: cover;}
+    .ref-sec-4 .sec4_header h2{margin: 10px 20px}
+    .ref-sec-4 .sec4_header p{margin: 10px 110px}
+    .ref-sec-4 .hvr_wrp {padding: 100px 20px;}
+    .ref-sec-5 .sec5_head p{margin: 20px}
+    .ref-sec-5 .sec5_content .box{margin: 15px 0; height: 90%}
+    .ref-sec-6 .sec6_right h2{font-size: 32px}
+    .ref-sec-6 .content ul li{font-size: 13px}
+    .ref-sec-6 .image img{max-width: 440px}
+    .ref-sec-8{background-size: cover;}
+    .ref-sec-8 .box{margin: 20px 0}
+    .ref-sec-8 .box img{width: 100%}
+    .ref-sec-8 .box .icn img{width: 10%}
+    .ref-sec-8 .hvr_box{padding: 73px 15px}
+    .ref-sec-10 .content:before {font-size: 57px;top: -34px;left: -25px;}
+
+    .banner .ref-banner .ref-banner-img img {transform: translateX(-63px);max-width: 430px;}
+    .banner .ref-banner .bnr_left .bnr_heading h1,.banner .ref-banner .bnr_left .bnr_heading span {font-size: 30px}
+    .banner .ref-banner .bnr_left {padding: 90px 0 40px;}
+    .banner .ref-partner .btn {margin: 0 20px}
+    .banner .ref-partner .content:before {width:35px;height:14px;right:-27px;}
+
+
+}
+@media screen and (max-width:767px){
+    .box-sec .main-heading {font-size: 28px; }
+    .location-header ul.header-btn{display:none;}
+    .location-header{text-align:center;}
+    .location-banner .content h2{font-size:22px;}
+    .logo-section4 .logo_sec4_content .logo_slide ul li .item_body .item_heading h3{font-size:18px!important;}
+    .logo-section4 .logo_sec4_head h2,.section5 .sec5_head h2,.location-banner h1,.location-banner h1 span{font-size:30px;}
+    .main-heading,.logo_cta .logo-cta-right h2{font-size:30px;}
+    .location-pg .section7 .sec7_head h2,.section6 .sec6_right h3,.section6 .sec6_right h2,.section8 .sec8_head h3,.section8 .sec8_head h2{font-size:35px;}
+    .sec8_pricing .sec8_box_left .box_left,.section6{background-size:cover;text-align:center}
+    .side-bar .side-bar-menu ul li a,.side-bar .side-bar-menu ul li ul li a{font-size:12px}
+    #domain-and-hosting .banner_item .box_1::after,#pills-branding-2 .sec8_pricing .sec8_box_left .box_left::before,#pills-ecommerce-2 .sec8_pricing .sec8_box_left .box_left::before,#pills-logo-2 .sec8_pricing .sec8_box_left .box_left::before,#pills-seo-2 .sec8_pricing .sec8_box_left .box_left::before,.banner .banner_item .box_1::after,.banner .banner_item .box_2::after,.banner .banner_item .box_3::after,.banner .banner_item .box_4::after,.banner .banner_item .box_5::after,.banner .banner_item .slick-dots,.banner .banner_item .slick-dots li button:before,.banner .banner_item .slick-dots li.slick-active button,.banner .banner_item .slick-dots li.slick-active button:before,.footer::after,.footer::before,.head_menu,.logo-section4 .logo_sec4_content .logo_slide ul li .combo_btn,.logo-section4::before,.sec8_pricing .sec8_box_left .box_left::before,.section5::after,.section6::before,#grant-writing .banner_item .box_1::after,#pills-grant-2 .sec8_box_left .box_left::before{display:none}
+    .section3 .sec3_head .sec3_left h2{font-size:28px}
+    .section7 .sec7_content .combo_btn a.btn1{padding:12px 9px}
+    .section7 .sec7_content .combo_btn .btn1 i{margin-left:5px}
+    h3{font-size:23px!important}
+    .header{padding:30px 0}
+    .banner .banner_item .banner_inner h1,.banner .banner_item .banner_inner h1 span,.footer .ft_left .ft_header h4{font-size:25px}
+    .side-bar{width:35%;padding:30px 0 20px}
+    .header .logo img{margin:0 auto;display:block;width:180px}
+    .banner .banner_item{padding:80px 0 50px}
+    .banner .banner_item .banner_inner{padding-top:30px;text-align:center}
+    .section3{padding:40px 0 0;text-align:center}
+    .logo-section4,.section5,.section6,.section7,.section8{padding:40px 0}
+    .logo-section3 .logo-sec3_right{margin-top:30px}
+    .logo-section4 .logo_sec4_content,.sec3_content,.section4 .sec4_right,.section6 .sec6_right .combo_btn,.section9 .sec9_content{margin-top:2rem}
+    .sec3_content{width:100%}
+    .section4 .sec4_right::before{width:280px;height:514px;left:-15px;top:-15px}
+    .section7 .sec7_head p{padding:0}
+    .section9 .sec9_content .sec9_testimonials{flex-direction:column}
+    .section9 .sec9_content .sec9_testimonials .item{width:70%;margin-bottom:10px}
+    .section9 .sec9_content .sec9_testimonials .item .item_text img{width:40px}
+    .section9 .sec9_content .sec9_testimonials .item .item_text .item_footer{margin-top:10px;font-size:17px!important}
+    .section9 .sec9_content .sec9_testimonials .item .item_text h4{font-size:20px;margin:15px 0}
+    .sec8_box_right,.sec8_pricing .sec8_box_left .box_left,.sec8_pricing .sec8_box_left .box_right{margin-bottom:20px}
+    .sec8_pricing .sec8_box_left .box_left{padding:20px 10px;display:flex;justify-content:center;align-items:center;flex-direction:column;background-position:center}
+    .sec3_content .slick-slider,.sec8_pricing .sec8_box_left .box_left p{margin:0}
+    .sec8_pricing .row{flex-direction:column-reverse}
+    .sec8_content #pills-tab{margin-bottom:30px}
+    .sec7_content{padding:0 110px}
+    .combo_btn,.ft__right ul{justify-content:center}
+    .footer .ft_left{width:80%;margin-bottom:20px}
+    .ft__left img{width:130px!important}
+    .ft_logo{padding:2rem 0}
+    .ft_logo .ft__right p{margin:20px auto}
+    #ecom-section3,#port-section3,.contact-section3,.footer .ft_right h5,.ft_logo,.ft_pay,.logo-section3 .logo-sec3_right,.logo_cta,.sec8_pricing .sec8_box_left .box_right h4,.section4,.section9{text-align:center}
+    .footer .ft_right .ft_menu .ft_menu_rgt ul li a{margin-left:25px}
+    .ft_pay img{width:350px}
+    .fixed-header{padding:25px 0}
+    .side-bar-button{top:40px}
+    .section4{padding:40px 0 60px}
+    .section4::after{font-size:210px;top:-60px;right:35px;letter-spacing:-18px}
+    .section4 .sec4_left .item h4{font-size:30px}
+    .banner .banner_item .banner_inner h4,.section4 .sec4_left .item p span{font-size:14px;margin:1rem 0}
+    .banner .banner_item .banner_inner h1 span,.terms-page .terms_item h1{font-size:25px!important}
+    .contact-section3 .cont_sec3 .cont_sec3_box,.sec6_left{margin-bottom:2rem}
+    .terms-section1 .term_content ul li{font-size:13px}
+    .sec5_content #pills-tab{margin-bottom:40px}
+    .port-page-portfolio .box{width:100%}
+    #port-section3 .logo-sec3_head .logo-sec3_left{width:80%;height:340px;margin:0 auto 20px;display:block;text-align:center}
+    .logo-section3 .logo-sec3_right h2{font-size:23px}
+    .logo-section3 .logo-sec3_head .logo-sec3_left img{width:85%;margin:0 auto 20px;display:block}
+    .sec3_content .sec3_box .sec3_item{padding:2rem 1rem;height:360px}
+    .sec3_content .sec3_box .sec3_item h4{font-size:22px}
+    .logo_cta{background:#fff}
+    .footer .col-sm-12.col-md-4{flex:auto}
+    .logo-section4 .logo_sec4_content .logo_slide ul li .combo_btn{margin-top:10px}
+    .logo-section4 .logo_sec4_content .logo_slide ul img{width:60%;margin:-27px auto 10px;display:block}
+    .logo-section4 .logo_sec4_content .logo_slide ul li .item_body .item_text p{min-height:unset}
+    .sec8_content #pills-tab .nav-item button{padding:13px 10px}
+    .sec8_content #pills-tab .nav-item button.nav-link.active{font-size:12px;padding:13px 30px}
+    #seo-section3 .logo-sec3_head .logo-sec3_left img{transform:scale(1) translateY(30px)}
+    .sec3_content .sec3_box .sec3_item.slick-slide{margin-right:15px;margin-left:15px}
+    .sec3_content .sec3_box .slick-list.draggable{padding-bottom:40px!important}
+    .logo-section4 .logo_sec4_content .logo_slide ul li .item_body .item_text{width:324px;padding:15px 0 0 20px;transform:rotate(270deg);height:320px}
+    .logo-section4 .logo_sec4_content .logo_slide ul{transform:rotate(90deg);margin-top:5rem;width:100%}
+    .logo-section4 .logo_sec4_content .logo_slide ul li .item_body .item_text ul{transform:rotate(unset);transform:none;margin-top:0}
+    .logo-section4 .logo_sec4_content .logo_slide ul .logo_slide_item-1.active .item_body,.logo-section4 .logo_sec4_content .logo_slide ul .logo_slide_item-2.active .item_body,.logo-section4 .logo_sec4_content .logo_slide ul .logo_slide_item-3.active .item_body,.logo-section4 .logo_sec4_content .logo_slide ul .logo_slide_item-4.active .item_body,.logo-section4 .logo_sec4_content .logo_slide ul .logo_slide_item-5.active .item_body,.logo-section4 .logo_sec4_content .logo_slide ul .logo_slide_item-6.active .item_body{width:330px}
+    .logo-section4{padding:60px 0 300px}
+    .footer .ft_right .ft_menu .ft_menu_rgt ul{padding-left:10px}
+    .footer .ft_right .ft_menu .ft_menu_lft ul{padding-left:10px;padding-top:10px}
+    .ft_menu_rgt.footer_menu ul{column-count:2;overflow-y:unset;height:fit-content}
+    #sec7_grant .row .col-md-4{max-width:100%;flex:100%;}
+
+    .ref-sec-4 .sec4_header h2{margin: 10px 0}
+    .ref-sec-4 .sec4_header p{margin: 10px 40px}
+    .ref-sec-4 .wrp img{width: 100%}
+    .ref-sec-4 .hvr_wrp{padding: 60px 20px}
+    .ref-sec-5 .sec5_head p {margin: 0}
+    .ref-sec-7 .sec7_head .content h2{font-size: 40px}
+    .ref-sec-8 .hvr_box {padding: 13px 15px;}
+
+    .banner .ref-banner .ref-banner-img img {max-width: 510px;transform: translateX(-10px);}
+    .ref-sec-6 .image img {max-width: 400px;}
+
+    .ref-banner{background-size: cover}
+    .ref-sec-3 .sec3_head .ref-sec3-img img{width: 70% !important}
+    .ref-sec-3 .content h2{font-size: 25px;margin-top: 20px}
+    .ref-sec-3 .content ul li{text-align: left;}
+    .ref-sec-5 .head h2 {margin: 0}
+    .ref-sec-5 .head p {margin: 20px 0 0 0}
+    .ref-sec-6 .content ul li{text-align: left;}
+    .ref-sec-6 .image img {transform: translateX(-60px);}
+    .ref-sec-10 .image{display: flex;align-items: center;justify-content: center; margin: 15px 0 0 0}
+    .ref-sec-10 .image img{width: 70%}
+
+}
+
+@media screen and (max-width:575px){
+    .sec7_content .item .item_body h4{font-size:20px;margin-bottom:15px}
+    .sec7_content .item{padding:1rem}
+    .sec7_content{padding:0 20px}
+    .section9 .sec9_content .sec9_testimonials .item{width:80%}
+    .footer .ft_left{width:95%;margin-bottom:20px;padding:40px 50px 10px 25px}
+    .footer .ft_left::before{width:101px;height:109px;left:35%}
+    .footer .ft_left .ft_header{margin-top:2rem}
+    .contact-section3 .cont_sec3 .cont_sec3_box a h4{font-size:11px}
+    .logo_cta .logo-cta-right p a.btn-call{font-size:19px}
+    .sec5_content .sec5_portfolio .box .item img{margin:0}
+    .section4::after{font-size:140px;top:0;right:25px;letter-spacing:-13px}
+    .ref-sec-3 .sec3_head .ref-sec3-img img {width: 50% !important;}
+    .banner .ref-banner .ref-banner-img img {max-width: 400px;transform: translateX(-10px);}
+    .ref-sec-6 .image img {transform: translateX(-20px);}
+    .ref-sec-7 .sec7_head .content h2 {font-size: 30px;}
+    .ref-sec-10 .content:before {font-size: 53px;top: -34px;left: -10px;}
+}
+@media screen and (max-width:500px){
+    .section4 .sec4_right::before{width:220px;height:415px;left:-11px;top:-13px}
+    .logo-section4 .logo_sec4_content .logo_slide ul{margin-top:0}
+    .logo-section4{padding:60px 0 430px}
+    .footer .ft_right .ft_pay {gap: 20px;flex-direction: column;}
+}
+@media screen and (max-width:420px){
+    .side-bar-button{left:20px}
+    .footer .ft_left{width:100%;padding:40px 50px 10px 25px}
+    .footer .ft_left .ft_header h4{font-size:22px}
+    .side-bar-footer h5{font-size:16px}
+    .side-bar{width:80%}
+    .ft_pay img{width:90%}
+    .terms-page .terms_item h1{font-size:20px!important}
+    #port-section3 .logo-sec3_head .logo-sec3_left{width:80%;height:300px}
+    .section4 .sec4_right::before{width:180px;height:322px;left:-3px;top:-11px}
+    .section3 .sec3_head .sec3_left h2{font-size:24px;margin-bottom:15px}
+    .logo-section3 .logo-sec3_right h2{font-size:20px}
+}
+@media screen and (max-width:419px){
+    .banner .ref-banner .ref-banner-img img {max-width: 270px;transform: translateY(24px);}
+    .ref-sec-3 .content ul li{font-size: 15px}
+    .ref-sec-4 .sec4_header h2 {font-size: 21px}
+    .ref-sec-4 .sec4_header p {margin: 10px 0}
+    .ref-sec-5 .head h3 {font-size: 19px !important}
+    .ref-sec-5 .head h2 {font-size: 25px !important}
+    .ref-sec-6 .sec6_right h2{font-size: 29px}
+    .ref-sec-6 .image img {max-width: 300px;}
+    .ref-sec-7 .sec7_head .content h2 {font-size: 26px;}
+}
+@media screen and (max-width:374px){
+    .btn1,.btn2{padding:12px 14px;font-size:12px}
+    .section4 .sec4_right::before{width:159px;height:302px;left:-1px;top:-9px}
+    .banner .ref-banner .ref-banner-img img {max-width: 270px;transform: translateY(24px);}
+}
+@media screen and (max-width:359px){
+    .section4 .sec4_right::before{width:136px;height:260px;left:0;top:-9px}
+}

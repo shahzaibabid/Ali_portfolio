@@ -1,0 +1,446 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&amp;family=Roboto:wght@100;300;400;500;700;900&amp;display=swap');
+
+body {
+    background: #fff;
+    font-size: 16px;
+    color: #000;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+li,
+span,
+strong {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* headings */
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    line-height: normal;
+    padding: 0;
+    margin: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff
+}
+
+a:hover {
+    text-decoration: none;
+    color: unset;
+}
+
+a:focus {
+    outline: none;
+    text-decoration: none;
+}
+
+figure {
+    margin-bottom: 0
+}
+
+img {
+    border: 0px;
+    outline: none;
+    max-width: 100%
+}
+
+ul {
+    padding: 0px;
+    margin: 0px
+}
+
+ul,
+li {
+    list-style-type: none;
+}
+
+.mt-30 {
+    margin-top: 45px;
+}
+
+.mt-50 {
+    margin-top: 100px;
+}
+
+.question {
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.question span {
+    margin-right: 15px;
+    background: #292929;
+    width: 25px;
+    height: 25px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    border-radius: 50%;
+    font-size: 14px;
+    position: relative;
+    top: -3px;
+}
+
+.form-wrap {
+    text-align: center;
+    padding: 60px 0;
+}
+
+.form-wrap .logo-img img {
+    /* filter: brightness(0); */
+    width: 280px;
+}
+
+.form-wrap .logo-img h2 {
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 30px;
+    padding: 20px 0;
+}
+
+.form-wrap .logo-img p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    width: 70%;
+    margin: auto;
+}
+
+.form-wrap form {
+    width: 100%;
+    margin: auto;
+    margin-top: 60px;
+    text-align: left
+}
+
+ul.emoji-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+ul.emoji-wrap h2 {
+    flex: 0 0 100%;
+}
+
+ul.emoji-wrap li {
+    display: inline-block;
+}
+
+ul.emoji-wrap li input[type="radio"][id^="cb"] {
+    display: none;
+}
+
+ul.emoji-wrap li label {
+    border: 1px solid rgb(1 66 172 / 0%);
+    display: block;
+    position: relative;
+    cursor: pointer;
+    width: 150px;
+    height: 150px;
+    border-radius: 6px;
+    background-color: rgba(1, 66, 172, 0.1);
+    box-shadow: rgba(1, 66, 172, 0.6) 0px 0px 0px 1px inset;
+    color: rgb(1, 66, 172);
+    transition-timing-function: ease-out;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+ul.emoji-wrap li label:before {
+    background-color: white;
+    color: white;
+    content: " ";
+    display: block;
+    border-radius: 50%;
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    line-height: 28px;
+    transition-duration: 0.4s;
+    transform: scale(0);
+}
+
+ul.emoji-wrap li label img {
+    filter: grayscale(1);
+    max-width: 100%;
+    transition-duration: 0.2s;
+    width: 50px;
+}
+
+ul.emoji-wrap li label svg {}
+
+ul.emoji-wrap li label svg path {
+    stroke: #0142ac;
+}
+
+ul.emoji-wrap li :checked+label svg path {
+    fill: #0142ac;
+    stroke: #fff;
+}
+
+ul.emoji-wrap li :checked+label {
+    border-color: rgb(1, 66, 172);
+}
+
+ul.emoji-wrap li :checked+label:before {
+    content: "âœ“";
+    background-color: #0142ac;
+    transform: scale(1);
+}
+
+ul.emoji-wrap li :checked+label img {
+    transform: scale(1);
+    z-index: -1;
+    filter: invert(0.8);
+}
+
+ul.emoji-wrap li label p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    padding-top: 30px;
+    color: gray;
+}
+
+ul.emoji-wrap li label:hover {
+    background-color: rgba(1, 66, 172, 0.3);
+}
+
+ul.emoji-wrap li :checked+label p {
+    color: #0142ac;
+}
+
+ul.emoji-wrap li label svg circle#Ellipse_31 {
+    stroke: #0142ac;
+    fill: transparent;
+    stroke-width: 7px;
+}
+
+ul.emoji-wrap li :checked+label circle#Ellipse_31 {
+    fill: #0142ac;
+    stroke: #fff;
+    stroke-width: 3px;
+}
+
+.wrap-2 {}
+
+.wrap-2 .question {
+    padding-bottom: 20px;
+}
+
+.wrap-2 label {
+    display: block;
+    font-weight: unset;
+    font-size: 20px;
+    line-height: 28px;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.wrap-2 input {
+    height: 45px;
+    display: block;
+    width: 100%;
+    color: rgb(1, 66, 172);
+    padding: 0px 0px 8px 8px;
+    border-radius: 0px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-size: 30px;
+    line-height: 38px;
+    transition: box-shadow 0.1s ease-out 0s;
+    box-shadow: rgba(1, 66, 172, 0.3) 0px 1px;
+    margin-top: 20px;
+}
+.wrap-2 textarea {
+    display: block;
+    width: 100%;
+    color: rgb(1, 66, 172);
+    padding: 0px 0px 8px 8px;
+    border-radius: 0px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-size: 30px;
+    line-height: 38px;
+    transition: box-shadow 0.1s ease-out 0s;
+    box-shadow: rgba(1, 66, 172, 0.3) 0px 1px;
+    margin-top: 20px;
+}
+.wrap-2 textarea:focus {
+    box-shadow: unset;
+    box-shadow: rgba(1, 66, 172, 0.3) 0px 1px;
+    color: rgb(1, 66, 172);
+}
+
+.thump-wrap {}
+
+ul.thump-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+ul.thump-wrap h2 {
+    flex: 0 0 100%;
+}
+
+ul.thump-wrap li {
+    display: inline-block;
+}
+
+ul.thump-wrap li input[type="radio"][id^="cb"] {
+    display: none;
+}
+
+ul.thump-wrap li label {
+    border: 1px solid rgb(1 66 172 / 0%);
+    display: block;
+    position: relative;
+    cursor: pointer;
+    width: 150px;
+    height: 150px;
+    border-radius: 6px;
+    background-color: rgba(1, 66, 172, 0.1);
+    box-shadow: rgba(1, 66, 172, 0.6) 0px 0px 0px 1px inset;
+    color: rgb(1, 66, 172);
+    transition-timing-function: ease-out;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+ul.thump-wrap li label:before {
+    background-color: white;
+    color: white;
+    content: " ";
+    display: block;
+    border-radius: 50%;
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    line-height: 28px;
+    transition-duration: 0.4s;
+    transform: scale(0);
+}
+
+ul.thump-wrap li label img {
+    filter: grayscale(1);
+    max-width: 100%;
+    transition-duration: 0.2s;
+    width: 50px;
+}
+
+ul.thump-wrap li :checked+label {
+    border-color: rgb(1, 66, 172);
+}
+
+ul.thump-wrap li :checked+label:before {
+    content: "âœ“";
+    background-color: #0142ac;
+    transform: scale(1);
+}
+
+ul.thump-wrap li :checked+label img {
+    transform: scale(1);
+    z-index: -1;
+    filter: invert(0.8);
+}
+
+ul.thump-wrap li label p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    padding-top: 30px;
+    color: gray;
+}
+
+ul.thump-wrap li label:hover {
+    background-color: rgba(1, 66, 172, 0.3);
+}
+
+ul.thump-wrap li :checked+label p {
+    color: #0142ac;
+}
+
+ul.thump-wrap li label svg {
+    max-height: 64px;
+    max-width: 64px;
+}
+
+ul.thump-wrap li label svg .symbolOutline {
+    fill: rgb(1, 66, 172);
+}
+
+ul.thump-wrap li label svg .symbolFill {
+    fill: none;
+}
+
+ul.thump-wrap li :checked+label svg path.symbolFill {
+    fill: rgb(1, 66, 172);
+}
+
+.form-wrap input[type="submit"] {
+    border: 0;
+    background: #292929;
+    color: #fff;
+    padding: 20px 50px;
+    border-radius: 6px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 18px;
+    display: table;
+    margin: auto;
+    margin-top: 60px;
+    text-transform: uppercase;
+}
+
+.form-wrap input[type="submit"]:hover {
+    background: #000;
+}
+
+.form-wrap label svg {
+    max-height: 64px;
+    max-width: 64px;
+}
