@@ -741,9 +741,9 @@ img {
     position: fixed;
     top: 0;
     z-index: 11;
-    background-image: -moz-linear-gradient(-90deg, rgb(184 0 93 / 69%) 0, rgb(93 16 13 / 85%) 100%);
-    background-image: -webkit-linear-gradient(-90deg, rgb(184 0 93 / 69%) 0, rgb(93 16 13 / 85%) 100%);
-    background-image: -ms-linear-gradient(-90deg, rgb(184 0 93 / 69%) 0, rgb(93 16 13 / 85%) 100%)
+    background-image: -moz-linear-gradient(-90deg, rgba(246, 242, 11, 0.69) 0, rgb(246, 242, 11, 0.69) 100%);
+    background-image: -webkit-linear-gradient(-90deg, rgb(246, 242, 11, 0.69) 0, rgb(246, 242, 11, 0.69) 100%);
+    background-image: -ms-linear-gradient(-90deg, rgb(246, 242, 11, 0.69) 0, rgb(246, 242, 11, 0.69) 100%)
 }
 
 .header .logo img {
