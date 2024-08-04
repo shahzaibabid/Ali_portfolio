@@ -207,7 +207,7 @@ img {
 }
 
 ::-webkit-scrollbar-thumb {
-    background: linear-gradient(-45deg, #b20158, rgb(105 13 24))
+    background: linear-gradient(-45deg, #000, #fff000)
 }
 
 ::-webkit-scrollbar-track {
@@ -738,12 +738,10 @@ img {
 }
 
 .fixed-header {
-    position: fixed;
+    position:static;
     top: 0;
     z-index: 11;
-    background-image: -moz-linear-gradient(-90deg, rgba(246, 242, 11, 0.69) 0, rgb(246, 242, 11, 0.69) 100%);
-    background-image: -webkit-linear-gradient(-90deg, rgb(246, 242, 11, 0.69) 0, rgb(246, 242, 11, 0.69) 100%);
-    background-image: -ms-linear-gradient(-90deg, rgb(246, 242, 11, 0.69) 0, rgb(246, 242, 11, 0.69) 100%)
+    background-color: transparent;
 }
 
 .header .logo img {
@@ -1105,7 +1103,7 @@ img {
 }
 
 .section4::after {
-    content: "MOBILE";
+    content: "";
     font-size: 500px;
     font-weight: 900;
     color: #efefef;
