@@ -1037,7 +1037,7 @@ img {
     width: 360px;
     height: 420px;
     padding: 2.5rem 3rem 0;
-    background: url("../images/sec3_item1.webp") 0 0/cover;
+    background: url("../images/gd.png") 0 0/cover;
     position: relative
 }
 
@@ -1165,7 +1165,7 @@ img {
     content: "";
     width: 290px;
     height: 548px;
-    background: url("../images/sec4_right_bg.webp") 0 0/contain no-repeat;
+    /* background: url("../images/sec4_right_bg.webp") 0 0/contain no-repeat; */
     position: absolute;
     top: -15px;
     left: -18px;
