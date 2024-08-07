@@ -1014,7 +1014,7 @@ img {
 
 .section2 {
     padding: 40px 0;
-    background: #f3f3f3
+    background: #000
 }
 
 .section3 {
@@ -1760,14 +1760,14 @@ img {
 .footer .ft_right h5 {
     font-size: 28px;
     font-weight: 800;
-    color: #1c287b;
+    color: #000;
     animation: .2s linear infinite ft_icon;
     margin-bottom: 20px
 }
 
 .footer .ft_right .ft_menu .ft_menu_lft ul {
     padding-bottom: 2rem;
-    border-bottom: 2px solid #f3f3f3
+    /* border-bottom: 2px solid #f3f3f3 */
 }
 
 .footer .ft_right .ft_menu .ft_menu_lft ul li {
@@ -1784,12 +1784,12 @@ img {
 }
 
 .footer .ft_right .ft_menu .ft_menu_lft ul li a:hover {
-    color: #1c287b
+    color: #000
 }
 
 .footer .ft_right .ft_menu .ft_menu_lft ul li a i {
     margin-right: 15px;
-    color: #1c287b
+    color: #000
 }
 
 .ft_logo .ft__right p {
@@ -1848,7 +1848,7 @@ img {
     position: absolute;
     top: 0;
     left: -25px;
-    color: #1c287b;
+    color: #fff000;
     animation: .6s linear infinite fticon
 }
 
@@ -2208,7 +2208,7 @@ img {
 #contact-page .banner_item,
 #port-page .banner_item,
 .terms-page {
-    background: url("../images/portfolio/banner-bg.webp") center center/cover no-repeat
+    background: url("../images/yellow_banner.jpg") center center/cover no-repeat
 }
 
 #ecom-page .banner_item .box_1::after {
@@ -2230,7 +2230,7 @@ img {
     font-weight: 900;
     display: inline-block;
     text-transform: uppercase;
-    background: -webkit-linear-gradient(#f80101, #630f0d);
+    background: -webkit-linear-gradient(#fff000, #630f0d);
     text-shadow: 0 -3px 5px 5px #fff
 }
 
@@ -2467,9 +2467,9 @@ div#web-maintenance3 .logo-sec3_left:hover img {
 
 .contact-section3 .cont_sec3 .cont_sec3_box:hover .box_img,
 .contact-section3 .cont_sec3 .cont_sec3_box:hover h4 {
-    background-image: -moz-linear-gradient(#009aff, #1c287b);
-    background-image: -webkit-linear-gradient(#009aff, #1c287b);
-    background-image: -ms-linear-gradient(#009aff, #1c287b)
+    background-image: -moz-linear-gradient(#000, #000);
+    background-image: -webkit-linear-gradient(#000, #000);
+    background-image: -ms-linear-gradient(#000, #000)
 }
 
 .contact-section3 .cont_sec3 .cont_sec3_box:hover .box_img {
