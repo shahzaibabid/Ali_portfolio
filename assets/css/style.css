@@ -2147,7 +2147,7 @@ img {
 }
 
 #brand-page .banner_item {
-    background: url("../images/branding/banner-bg.webp") center center/cover no-repeat
+    background: url("../images/yellow_banner.jpg") center center/cover no-repeat
 }
 
 #brand-page .banner_item .box_1::after {
@@ -2177,7 +2177,7 @@ img {
 
 #brand-page .banner_item .banner_inner h1 span,
 #seo-page .banner_item .banner_inner h1 span {
-    background: -webkit-linear-gradient(90deg, #9e4df9, #322aac);
+    background: -webkit-linear-gradient(90deg, #000, #fff000);
     -webkit-background-clip: text
 }
 
