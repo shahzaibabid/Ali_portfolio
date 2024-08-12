@@ -230,6 +230,57 @@
          }
       }
    </script>
+
+   <style>
+
+    /* Container for the dropdown */
+    .dropdown {
+      position: relative;
+      display: inline-block;
+  }
+
+  /* Dropdown content (hidden by default) */
+  .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      min-width: 250px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+      text-align: left;
+  }
+
+  /* Links inside the dropdown */
+  .dropdown-content a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+  }
+
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {
+      background-color: #f1f1f1;
+  }
+
+  /* Show the dropdown when hovering over the button */
+  .dropdown:hover .dropdown-content {
+      display: block;
+  }
+
+  @media only screen and (max-width: 768px) {
+    .banner_inner {
+        margin-top: -100px;
+    }
+}
+@media only screen and (max-width: 768px) {
+  .combo_btn_top {
+    margin-top: 0px;
+  }
+}
+
+
+</style>
 </head>
 <body>
 
@@ -251,106 +302,118 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       </noscript>
 
 <!-- sidebar start -->
-<nav>
-  <div class="side-bar closed">
-  <div class="side-bar-logo">
-  <a class href="index.html"><img src="assets/images/side-bar-logo.png" alt="Loading Logo Image...."></a>
-  </div>
-  <div class="side-bar-menu">
+<nav class="d-md-none">
+<div class="side-bar closed">
+<div class="side-bar-logo">
+<a class href="index.html"><img src="assets/images/side-bar-logo.png" alt="Loading Logo Image...."></a>
+</div>
+<div class="side-bar-menu">
+<ul>
+<li><a href="index.html">Home</a></li>
+<li>
+<a href="#">My Services <i class="fa-solid fa-plus"></i></a>
+<ul class="menu_dropdown">
+<li><a href="/graphic-designing.html">Graphic Designing</a></li>
+<li><a href="/video-editing.html">Video Editing</a></li>
+<li><a href="/smm.html">SMM</a></li>
+</ul>
+</li>
+<li><a href="about.html">About Me</a></li>
+<li><a href="contact.html">Contact Me</a></li>
+</ul>
+</div>
+<div class="side-bar-footer">
+  <h5>Connect Via:</h5>
   <ul>
-  <li><a href="index.html">Home</a></li>
   <li>
-  <a href="#">My Services <i class="fa-solid fa-plus"></i></a>
-  <ul class="menu_dropdown">
-  <li><a href="/graphic-designing.html">Graphic Designing</a></li>
-  <li><a href="/video-editing.html">Video Editing</a></li>
-  <li><a href="/smm.html">SMM</a></li>
-  </ul>
+  <a target="_blank" href="#" aria-hidden="true">
+  <i class="fa-brands fa-whatsapp"></i></a>
   </li>
-  <li><a href="about.html">About Me</a></li>
-  <li><a href="contact.html">Contact Me</a></li>
+  <li>
+  <a target="_blank" href="#" aria-hidden="true">
+  <i class="fa-brands fa-facebook"></i></a>
+  </li>
+  <li>
+  <a target="_blank" href="#" aria-hidden="true">
+  <i class="fa-brands fa-instagram"></i></a>
+  </li>
+  <li>
+  <a target="_blank" href="#" aria-hidden="true">
+  <i class="fa-brands fa-linkedin-in"></i></a>
+  </li>
   </ul>
+  <p>
+    © Ali Hasnain <script type="71f5285c319add0b8d361bd7-text/javascript">
+    document.write(new Date().getFullYear());
+    </script>,<br>All Rights Reserved.
+    </p>
   </div>
-  <div class="side-bar-footer">
-    <h5>Connect Via:</h5>
-    <ul>
-    <li>
-    <a target="_blank" href="#" aria-hidden="true">
-    <i class="fa-brands fa-whatsapp"></i></a>
-    </li>
-    <li>
-    <a target="_blank" href="#" aria-hidden="true">
-    <i class="fa-brands fa-facebook"></i></a>
-    </li>
-    <li>
-    <a target="_blank" href="#" aria-hidden="true">
-    <i class="fa-brands fa-instagram"></i></a>
-    </li>
-    <li>
-    <a target="_blank" href="#" aria-hidden="true">
-    <i class="fa-brands fa-linkedin-in"></i></a>
-    </li>
-    </ul>
-    <p>
-      © Ali Hasnain <script type="71f5285c319add0b8d361bd7-text/javascript">
-      document.write(new Date().getFullYear());
-      </script>,<br>All Rights Reserved.
-      </p>
-    </div>
-  </div>
-  <button class="side-bar-button">
-  <span>Menu</span>
-  </button>
-  </nav>
-  <!-- sidebar end -->
-
+</div>
+<button class="side-bar-button">
+<span>Menu</span>
+</button>
+</nav>
+<!-- sidebar end -->
 <!-- navigation start -->
 <div class="header" id="header">
-<div class="container">
+<div class="container-fluid">
 <div class="row align-items-center">
+  <div class="col-sm-12 col-md-4 col-lg-4">
+    <div class="head_menu">
+    <a class="head_btn2" href="./index.html">Home</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <div class="dropdown">
+      <a class="head_btn2" href="#">My Work</a>
+      <div class="dropdown-content">
+          <a href="./smm.html">Social Media Management</a>
+          <a href="./graphic-designing.html">Graphic Designing</a>
+          <a href="./video-editing.html">Video Editing</a>
+
+      </div>
+  </div>
+    </div>
+    </div>
 <div class="col-sm-12 col-md-4 col-lg-4">
-<div class="logo">
-<a href="index.html"><img src="assets/images/logo.png" height="150px" alt="Loading Logo Image..." id="imgLogo"></a>
+  <div class="logo">
+  <a href="index.html"><img src="assets/images/logo.png" width="auto" height="50px" alt="Loading Logo Image..." id="imgLogo"></a>
+  </div>
 </div>
-</div>
-<div class="col-sm-12 col-md-8 col-lg-8">
+<div class="col-sm-12 col-md-4 col-lg-4">
 <div class="head_menu">
-<a class="head_btn1" href="tel:+1-201-502-3939"><span>Contact:</span>
-+92 0000000 </a>
-<a class="head_btn2 popup-btn" href="javascript:;">Free Consultation</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a class="head_btn2" href="./about.html">About Me</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a class="head_btn2" href="./contact.html">Contact</a>
 </div>
 </div>
 </div>
 </div>
+
 </div> 
 <!-- navigation end -->
 
 <!-- banner start -->
-<div id="brand-page" class="banner">
-<div class="banner_item">
-<div class="banner_inner box_1">
-<div class="container">
-<div class="row">
-<div class="col-sm-12 col-md-8">
-<h4>Starting as low as I can</h4>
-<h1>
-Establishing A <br> Strong Relationship <br> <span>Thorough Designing</span>
-</h1>
-<p>Designing is a phenomenon that increases brand recognition helps attract newer prospects,
-<span> and improves customer loyalty. </span>
-</p>
-<div class="combo_btn">
-<a href="#" class="btn1 popup-btn">See Portfolio <i class="fa-solid fa-arrow-right-long"></i></a>
-<a href="tel:+92-3232-9020-1179" class="btn2"><i class="fa-solid fa-phone-volume"></i>
-+92-3232-9020-11729</a>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<!-- banner end -->
+<div id="contact-page" class="banner">
+  <div class="banner_item">
+  <div class="banner_inner box_1">
+  <div class="container">
+  <div class="row">
+  <div class="col-sm-12 col-md-12 text-center">
+  <h1>
+  <span>Graphic Designing</span>
+  </h1>
+  <p>Share your plans for digital expansion with us
+  <span>and witness how we convert thoughts into action.</span>
+  </p>
+  <div class="combo_btn">
+  <a href="javascript:;" class="btn1 popup-btn">See Portfolio <i class="fa-solid fa-arrow-right-long"></i></a>
+  <a href="tel:++92 028 666 88" class="btn2"><i class="fa-solid fa-phone-volume"></i>
+  +92 028 666 88</a>
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+  <!-- banner end -->
 
 <!-- clients start -->
 <div id="brand-section2" class="section2">
@@ -446,11 +509,11 @@ Consultation!</a>
   <div class="sec5_content">
   <div class="row">
   <div class="col-sm-12">
-  <ul class="nav nav-pills" id="pills-tab" role="tablist">
+  <!-- <ul class="nav nav-pills" id="pills-tab" role="tablist">
   <li class="nav-item" role="presentation" style="color: #000;"><button class="nav-link active" id="pills-graphic-tab" data-toggle="pill" data-target="#pills-graphic" type="button" role="tab" aria-controls="pills-graphic" aria-selected="true">Graphic Designing</button></li>
   <li class="nav-item" role="presentation"><button class="nav-link" id="pills-video-tab" data-toggle="pill" data-target="#pills-video" type="button" role="tab" aria-controls="pills-video" aria-selected="false">Video Editing</button></li>
   <li class="nav-item" role="presentation"><button class="nav-link" id="pills-smm-tab" data-toggle="pill" data-target="#pills-smm" type="button" role="tab" aria-controls="pills-smm" aria-selected="false">SMM</button></li>
-  </ul>
+  </ul> -->
   <div class="tab-content" id="pills-tabContent">
   <!-- graphic start -->
   <div class="tab-pane fade show active" id="pills-graphic" role="tabpanel" aria-labelledby="pills-graphic-tab">

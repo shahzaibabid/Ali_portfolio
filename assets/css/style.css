@@ -1235,9 +1235,9 @@ img {
 .section5::before {
     content: "";
     width: 100%;
-    height: 80%;
+    height: 500px;
     background-color: #fff000;
-    background: url("../images/yellow_banner.jpg") center center/cover no-repeat;
+    background: url("../images/final_banner.png") center center/cover no-repeat;
     /* filter: brightness(.5); */
     position: absolute;
     top: 0;
@@ -2257,7 +2257,7 @@ img {
 #contact-page .banner_item,
 #port-page .banner_item,
 .terms-page {
-    background: url("../images/yellow_banner.jpg") center center/cover no-repeat
+    background: url("../images/final_banner.png") center center/cover no-repeat
 }
 
 #ecom-page .banner_item .box_1::after {
@@ -2334,9 +2334,10 @@ img {
 #digital-marketing .banner_item .box_1::after {
     width: 30%;
     height: 75%;
-    right: 150px;
+    left: 830px;
     background: url("../images/digital-marketing/box_1.png") 0 0/contain no-repeat;
-    bottom: 60px
+    bottom: 60px;
+    top:120px
 }
 
 div#digital-marketing3 .logo-sec3_left,
