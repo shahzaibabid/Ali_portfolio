@@ -251,9 +251,63 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <a href='https://www.clickcease.com/' rel='nofollow'><img src='https://monitor.clickcease.com/' alt='ClickCease'/></a>
       </noscript>
 
+<style>
 
+        /* Container for the dropdown */
+        .dropdown {
+          position: relative;
+          display: inline-block;
+      }
+
+      /* Dropdown content (hidden by default) */
+      .dropdown-content {
+          display: none;
+          position: absolute;
+          background-color: #f9f9f9;
+          min-width: 250px;
+          box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+          z-index: 1;
+          text-align: left;
+      }
+
+      /* Links inside the dropdown */
+      .dropdown-content a {
+          color: black;
+          padding: 12px 16px;
+          text-decoration: none;
+          display: block;
+      }
+
+      /* Change color of dropdown links on hover */
+      .dropdown-content a:hover {
+          background-color: #f1f1f1;
+      }
+
+      /* Show the dropdown when hovering over the button */
+      .dropdown:hover .dropdown-content {
+          display: block;
+      }
+
+      @media only screen and (max-width: 768px) {
+        .banner_inner {
+            margin-top: -100px;
+        }
+    }
+    @media only screen and (max-width: 768px) {
+      .combo_btn_top {
+        margin-top: 0px;
+      }
+  }
+
+  @media only screen and (max-width: 480px) {
+    /* Targeting all h1 elements inside .banner_inner */
+    .banner_inner h1 {
+        font-size: 60px !important; /* Using !important to override other styles */
+        letter-spacing: 5px !important; /* Adjusting letter-spacing */
+    }}
+</style>
 <!-- sidebar start -->
-<nav>
+<nav class="d-md-none">
 <div class="side-bar closed">
 <div class="side-bar-logo">
 <a class href="index.html"><img src="assets/images/side-bar-logo.png" alt="Loading Logo Image...."></a>
@@ -308,27 +362,84 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 <!-- navigation start -->
 <div class="header" id="header">
-<div class="container">
+<div class="container-fluid">
 <div class="row align-items-center">
+  <div class="col-sm-12 col-md-4 col-lg-4">
+    <div class="head_menu">
+    <a class="head_btn2" href="#">Home</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <div class="dropdown">
+      <a class="head_btn2" href="#">My Work</a>
+      <div class="dropdown-content">
+          <a href="#">Social Media Management</a>
+          <a href="#">Graphic Designing</a>
+          <a href="#">Video Editing</a>
+
+      </div>
+  </div>
+    </div>
+    </div>
 <div class="col-sm-12 col-md-4 col-lg-4">
-<div class="logo">
-<a href="index.html"><img src="assets/images/logo.png" height="150px" alt="Loading Logo Image..." id="imgLogo"></a>
+  <div class="logo">
+  <a href="index.html"><img src="assets/images/logo.png" width="auto" height="50px" alt="Loading Logo Image..." id="imgLogo"></a>
+  </div>
 </div>
-</div>
-<div class="col-sm-12 col-md-8 col-lg-8">
+<div class="col-sm-12 col-md-4 col-lg-4">
 <div class="head_menu">
-<a class="head_btn1" href="tel:+1-201-502-3939"><span>Contact:</span>
-+92 0000000 </a>
-<a class="head_btn2 popup-btn" href="javascript:;">Free Consultation</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a class="head_btn2" href="#">About Me</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a class="head_btn2" href="#">Contact</a>
 </div>
 </div>
 </div>
 </div>
+<hr>
 </div> 
 <!-- navigation end -->
 
 <!-- Banner start -->
+
 <div class="banner">
+  <div class="banner_item">
+    <div class="banner_inner box_1">
+      <div class="container">
+        <div class="row align-items-center">
+          <!-- Image on the left -->
+          <div class="col-md-5 ">
+          </div>
+          <!-- Content on the right -->
+          <div class="col-md-7" >
+            <h4 style="text-transform: lowercase; margin-top:120px"> <b>👋🏻 My name is Ali Hasnain & I am an all-round</b></h4>
+            <h1 style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size:120px; border-bottom: 30px solid #fff; letter-spacing:10px;">CREATIVE</h1>
+            <h1 style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size:100px; color:#fff; letter-spacing:10px;">FREELANCER</h1>
+
+            <!-- <p>My mission is to optimize your social media strategy and visual content <br> to achieve your goals and build a better future. Let's elevate your digital presence!</p> -->
+            
+          </div>
+          
+        </div>
+        <div class="combo_btn_top" >
+          <div class="col-sm-12 col-md-4 col-lg-4">
+            <a href="#" class="btn1 popup-btn"> You Need a Graphic Designer<i class="fa-solid fa-arrow-right-long"></i></a>
+
+          </div>
+
+          <div class="col-sm-12 col-md-4 col-lg-4">
+            <a href="#" class="btn1 popup-btn"> Need Social Media Manager<i class="fa-solid fa-arrow-right-long"></i></a>
+
+          </div>
+          <div class="col-sm-12 col-md-4 col-lg-4">
+            <a href="#" class="btn1 popup-btn">You Need a Video Editor<i class="fa-solid fa-arrow-right-long"></i></a>
+
+          </div>
+          
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- <div class="banner">
 <div class="banner_item">
 <div class="banner_inner box_1">
 <div class="container">
@@ -345,7 +456,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
 </div>
-</div>
+</div> -->
 <!-- Banner End -->
 <!-- What I Do Start -->
 <div class="section3">
