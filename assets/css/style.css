@@ -1080,13 +1080,14 @@ img {
     overflow: hidden
 }
 
-.sec3_content .sec3_box .sec3_item1  {
+.sec3_content .sec3_box .sec3_item  {
     width: 360px;
     height: 420px;
     padding: 2.5rem 3rem 0;
-    /* background: url("../images/gd.png") 0 0/cover; */
+    background: url("../images/behind_bg.png") 0 0/cover;
     position: relative
 }
+
 
 
 .sec3_content .sec3_box .sec3_item h4 {
